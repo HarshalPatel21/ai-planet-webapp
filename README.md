@@ -27,3 +27,7 @@ Navigate to the frontend directory and install dependencies:
 `npm install`
 
 `npm start`
+
+### Launch 
+
+once both services are running visit `http://ai-planet:65519/` 
