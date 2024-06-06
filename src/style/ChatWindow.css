@@ -1,0 +1,33 @@
+.chat-window {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    width: 100;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: 300px;
+}
+
+.message.user {
+    width: 70%;
+}
+
+.message.bot {
+    width: 70%;
+}
+
+.message-icon {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.message-text {
+    flex: 1;
+}
